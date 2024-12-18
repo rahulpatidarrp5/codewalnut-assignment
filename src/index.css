@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For Desktop (screen width > 1024px) */
+.sonner-toast-top-right {
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* For Mobile (screen width <= 1024px) */
+  @media (max-width: 1024px) {
+    .sonner-toast-bottom {
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
